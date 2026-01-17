@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sifat | Professional Portfolio</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2 class="logo">Sifat</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="themeToggle">🌙</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="images/img4.jpeg" alt="Profile Photo">
+    <h1>Hi, I'm Sifat</h1>
+    <p id="typing"></p>
+
+    <button onclick="scrollToContact()">Hire Me</button>
+    <br><br>
+    <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a second-year Computer Science & Engineering student from Bangladesh.
+      I love building modern websites and learning Artificial Intelligence.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>PHP</span>
+      <span>MySQL</span>
+      <span>Git & GitHub</span>
+      <span>AI Basics</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>CropVerse</h3>
+      <p>Smart climate-aware farmer support & marketplace system.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Professional personal website using HTML, CSS & JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p>Email: mishkat049@gmail.com.com</p>
+    <p>GitHub: <a href="https://github.com/Sifat049" target="_blank">github.com/Sifat049</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Sifat | All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
